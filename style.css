@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px #229669 solid;
+}
+
+#map .block {
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    border-top: 1px #ebebeb solid;
+    border-left: 1px #ebebeb solid;
+    background: #ffffff;
+}
+
+#map .player {
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    background: #9fc026;
+}
+
+#map .bot {
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    background: #c02659;
+}
+
+#map .ball {
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: #26c06b;
+}
+p,h1,h2 {
+    text-align: center;
+}
+#map {
+    margin: 0 auto;
+}
